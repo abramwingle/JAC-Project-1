@@ -29,6 +29,9 @@
 .carousel-img {
     height: 400px;
 }
+.carousel-class {
+    padding-top: 3.5px;
+}
 .purp-img {
     width: 300px;
     padding: 25px;
