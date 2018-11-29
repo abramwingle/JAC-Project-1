@@ -35,6 +35,9 @@
 .imgurs {
     vertical-align: middle;
 }
+.imgurs:hover {
+    opacity: 0.6;
+}
 .purp-img {
     width: 300px;
     padding: 25px;
