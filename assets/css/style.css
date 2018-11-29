@@ -31,10 +31,15 @@
 }
 .purp-img {
     width: 300px;
+    padding: 25px;
 }
 .paragraph {
     font-family: Open+Sans+Condensed;
     font-size: 20px;
+    
+}
+p {
+    padding: 25px;
 }
 .ul-footer {
     font-family: 'Indie Flower', cursive;
