@@ -34,6 +34,7 @@
 }
 .imgurs {
     vertical-align: middle;
+    padding: 15px;
 }
 .imgurs:hover {
     opacity: 0.6;
