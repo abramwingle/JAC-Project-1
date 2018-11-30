@@ -1,0 +1,57 @@
+.header-img {
+    width: 100px;
+    vertical-align: middle;
+}
+.logo-div {
+    margin-left: 45px;
+}
+.head-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top: 5px;
+}
+.head-logo-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.ul-nav {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.nav-item {
+    border-right: 1px solid lightslategray;
+}
+.nav-item:nth-child(4) {
+    border-right: none;
+}
+.carousel-img {
+    height: 500px;
+}
+.carousel-class {
+    padding-top: 3.5px;
+}
+.imgurs {
+    vertical-align: middle;
+    padding: 15px;
+}
+.imgurs:hover {
+    opacity: 0.6;
+}
+.purp-img {
+    width: 300px;
+    padding: 25px;
+}
+.paragraph {
+    font-family: Open+Sans+Condensed;
+    font-size: 20px;
+    
+}
+p {
+    padding: 25px;
+}
+.ul-footer {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
