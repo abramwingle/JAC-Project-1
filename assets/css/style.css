@@ -9,12 +9,14 @@
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
     margin-top: 5px;
+    text-decoration: none;
 }
 .head-logo-text {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     margin-left: 15px;
     margin-top: 5px;
+    text-decoration: none;
 }
 .ul-nav {
     font-family: 'Indie Flower', cursive;
@@ -27,6 +29,10 @@
     border-right: none;
 }
 .carousel-img {
+    height: 400px;
+}
+.purp-img {
+    width: 300px;
     height: 500px;
 }
 .carousel-class {
