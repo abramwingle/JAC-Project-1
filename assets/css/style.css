@@ -28,6 +28,9 @@
 .nav-item:nth-child(3) {
     border-right: none;
 }
+.display-3 {
+    font-family: 'Indie Flower', cursive;
+}
 .carousel-img {
     height: 400px;
 }
@@ -50,25 +53,37 @@
     padding: 25px;
 }
 .paragraph {
-    font-family: Open+Sans+Condensed;
-    font-size: 20px;
-    
-}
-p {
     padding: 25px;
+    font-family: 'shadows into light', cursive;
+    font-size: 25px;
+}
+.quest {
+    font-family: 'shadows into light', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+h6 {
+    font-family: 'shadows into light', cursive;
+    font-size: 20px;
 }
 .ul-footer {
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+}
+.fa li {
+    display: inline;
+    padding: 5px;
 }
 
 
 .newColumn {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
     width: 300px;
     height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(56, 55, 55, 0.835);
+    margin-left: 5px;
   }
   
   /* Create four equal columns that sits next to each other */
