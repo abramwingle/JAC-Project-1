@@ -1,3 +1,17 @@
+
+.not-index {
+    background-color: #1f2225a1;
+    animation: myanimation 10s infinite;
+  }
+  
+  @keyframes myanimation {
+    0% {background-color: #1f2225a1;}
+    25% {background-color:#565657a1;}
+    50% {background-color:#acadada1;}
+    75% {background-color:#565657a1;}
+    100% {background-color: #1f2225a1;}
+  
+  }
 .header-img {
     width: 100px;
     vertical-align: middle;
@@ -9,22 +23,28 @@
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
     margin-top: 5px;
-    text-decoration: none;
+    color: #343a40;
 }
 .head-logo-text {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     margin-left: 15px;
     margin-top: 5px;
-    text-decoration: none;
+    color: #343a40;
+}
+.head-logo:hover {
+    color: rgba(0, 0, 0, 0.24);
+}
+.head-logo-text:hover {
+    color: rgba(0, 0, 0, 0.24);
 }
 .ul-nav {
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
 }
 .nav-item {
     border-right: 1px solid lightslategray;
-}
+}   
 .nav-item:nth-child(3) {
     border-right: none;
 }
@@ -32,7 +52,7 @@
     font-family: 'Indie Flower', cursive;
 }
 .carousel-img {
-    height: 400px;
+    height: 800px;
 }
 .purp-img {
     width: 300px;
@@ -44,6 +64,7 @@
 .imgurs {
     vertical-align: middle;
     padding: 15px;
+    border-radius: 50%;
 }
 .imgurs:hover {
     opacity: 0.6;
@@ -54,27 +75,29 @@
 }
 .paragraph {
     padding: 25px;
-    font-family: 'shadows into light', cursive;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 .quest {
-    font-family: 'shadows into light', cursive;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-weight: bold;
 }
 h6 {
-    font-family: 'shadows into light', cursive;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 .ul-footer {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 .fa li {
     display: inline;
     padding: 5px;
 }
-
+.mid-row {
+    margin-top: 55px;
+}
 
 .newColumn {
     display: flex;
