@@ -31,15 +31,15 @@ $.ajax({
 
     };
     // for (var j = 0; j < response.length; j++) {
-        var perIMG = $("<img class='newColumn rounded' style='width:300px; height:200px;' alt='Portfolio'><br>");
+        var perIMG = $("<img class='imgurs' style='width:300px; height:300px;' alt='Portfolio'><br>");
         perIMG.attr("src", response[0].url);
         $("#index-img").html(perIMG);
 
-        var perIMG2 = $("<img class='newColumn rounded' style='width:300px; height:200px;' alt='Portfolio'><br>");
+        var perIMG2 = $("<img class='imgurs' style='width:300px; height:300px;' alt='Portfolio'><br>");
         perIMG2.attr("src", response[1].url);
         $("#index-img-2").html(perIMG2);
 
-        var perIMG3 = $("<img class='newColumn rounded' style='width:300px; height:200px;' alt='Portfolio'><br>");
+        var perIMG3 = $("<img class='imgurs' style='width:300px; height:300px;' alt='Portfolio'><br>");
         perIMG3.attr("src", response[2].url);
         $("#index-img-3").html(perIMG3);
     // };
