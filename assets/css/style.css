@@ -97,6 +97,9 @@ h6 {
     display: inline;
     padding: 5px;
 }
+.fa li:hover {
+    opacity: .3;
+}
 .mid-row {
     margin-top: 55px;
 }
