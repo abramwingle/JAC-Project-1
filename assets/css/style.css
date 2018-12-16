@@ -60,6 +60,7 @@
 }
 .carousel-class {
     padding-top: 3.5px;
+    padding-right: 0 !important;
 }
 .imgurs {
     vertical-align: middle;
@@ -168,5 +169,5 @@ h6 {
       justify-content: center;
   }
   *, ::after, ::before {
-    box-sizing: none;
+    box-sizing: none!important;
 }
