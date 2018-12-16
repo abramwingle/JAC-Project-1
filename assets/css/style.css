@@ -65,9 +65,11 @@
     vertical-align: middle;
     padding: 15px;
     border-radius: 50%;
+    box-shadow: 10px 10px 5px rgba(37, 37, 37, 0.527);
 }
 .imgurs:hover {
     opacity: 0.6;
+    
 }
 .purp-img {
     width: 300px;
@@ -106,7 +108,8 @@ h6 {
     height: 300px;
     border-radius: 10px;
     border: 1px solid rgba(56, 55, 55, 0.835);
-    margin-left: 5px;
+    margin-left: 15px;
+    box-shadow: 10px 10px 5px rgba(37, 37, 37, 0.527);
   }
   
   /* Create four equal columns that sits next to each other */
@@ -161,4 +164,6 @@ h6 {
       flex-wrap: wrap;
       justify-content: center;
   }
-  
+  *, ::after, ::before {
+    box-sizing: none;
+}
