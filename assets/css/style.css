@@ -65,7 +65,7 @@
     vertical-align: middle;
     padding: 15px;
     border-radius: 50%;
-    box-shadow: 10px 10px 5px rgba(37, 37, 37, 0.527);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.767);
 }
 .imgurs:hover {
     opacity: 0.6;
