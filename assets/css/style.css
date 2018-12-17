@@ -60,6 +60,7 @@
 }
 .carousel-class {
     padding-top: 3.5px;
+    padding-right: 0 !important;
 }
 .imgurs {
     vertical-align: middle;
@@ -68,9 +69,9 @@
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.767);
 }
 .imgurs:hover {
-    opacity: 0.6;
-    
+    opacity: 0.6;  
 }
+
 .purp-img {
     width: 300px;
     padding: 25px;
@@ -168,5 +169,5 @@ h6 {
       justify-content: center;
   }
   *, ::after, ::before {
-    box-sizing: none;
+    box-sizing: none!important;
 }
