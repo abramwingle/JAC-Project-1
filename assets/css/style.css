@@ -155,7 +155,6 @@ h6 {
       max-width: 100%;
     }
   }
-
   
   #newContainer {
       padding-left: auto;
@@ -169,4 +168,12 @@ h6 {
   }
   *, ::after, ::before {
     box-sizing: none;
+}
+
+.pictureLinks {
+    color: white;
+}
+
+.pictureLinks:hover {
+    color: grey;
 }
