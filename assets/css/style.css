@@ -99,6 +99,15 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+.fa-div {
+    margin-left: 30%;
+}
+.fa {
+    margin-bottom: 0;
+}
+.fa-ca {
+    padding-left: 40px;
+}
 .fa li {
     display: inline;
     padding: 5px;
@@ -159,6 +168,10 @@ h6 {
     .logo-div {
         margin-left: 0;
     }
+    .b-nav {
+        display: flex;
+        flex-wrap: nowrap;
+    }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -166,6 +179,21 @@ h6 {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 457px) {
+    .nav-img-b {
+        display: none;
+    }
+    .fa {
+        padding-left: 0px;
+    }
+    .fa-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fa-ca {
+        padding-left: 0px;
     }
   }
   @media screen and (max-width: 407px) {
@@ -201,9 +229,4 @@ h6 {
     color: grey;
 
 }
-.fa {
-    margin-bottom: 0;
-}
-.fa-ca {
-    padding-left: 40px;
-}
+
