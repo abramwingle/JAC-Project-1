@@ -136,6 +136,12 @@ h6 {
         border-right: none;
     }  
   }
+  @media screen and (max-width: 770px) {
+    .imgurs {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 
   /* deleting borders on navbar */
   @media screen and (max-width: 800px) {
@@ -147,10 +153,6 @@ h6 {
   @media screen and (max-width: 1000px) {
     .logo-div {
         margin-left: 0;
-    }
-    .img-divs {
-        margin-left: auto;
-        margin-right: auto;
     }
   }
   
