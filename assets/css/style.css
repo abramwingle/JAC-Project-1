@@ -198,3 +198,9 @@ h6 {
     color: grey;
 
 }
+.fa {
+    margin-bottom: 0;
+}
+.fa-ca {
+    padding-left: 40px;
+}
