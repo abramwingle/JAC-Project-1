@@ -60,6 +60,7 @@
 }
 .carousel-class {
     padding-top: 3.5px;
+    padding-right: 0 !important;
 }
 .imgurs {
     vertical-align: middle;
@@ -68,9 +69,9 @@
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.767);
 }
 .imgurs:hover {
-    opacity: 0.6;
-    
+    opacity: 0.6;  
 }
+
 .purp-img {
     width: 300px;
     padding: 25px;
@@ -176,6 +177,7 @@ h6 {
 
 .pictureLinks:hover {
     color: grey;
+<<<<<<< HEAD
 }
 
 #contactInfo {
@@ -189,4 +191,7 @@ h6 {
 
 #collapseCard2 {
     padding-top: 35px;
+=======
+
+>>>>>>> b9b97123c8e6ad8c2217998c9767792315f4efe7
 }
