@@ -177,3 +177,16 @@ h6 {
 .pictureLinks:hover {
     color: grey;
 }
+
+#contactInfo {
+    font-weight: bold;
+}
+
+.info {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+#collapseCard2 {
+    padding-top: 35px;
+}

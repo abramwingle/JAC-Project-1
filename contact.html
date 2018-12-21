@@ -17,7 +17,7 @@
     <title>Brows for the Soul</title>
     <style>
 
-        .aboutCards {
+    .aboutCards {
         margin-top: 125px;
 
     }
@@ -86,27 +86,28 @@
             <div class="card col-md-6 text-center">
                 <img class="card-img-top" src="assets/images/contact.png" style="width:400px; margin-left:auto; margin-right:auto;"
                     alt="Card image cap">
-                <div class="card-body">
-                    <button class="btn btn-dark border border-dark" type="button" data-toggle="collapse" href="#collapseCard2"
-                        aria-expanded="false" aria-controls="collapseCard2">
-                        Read More
-                    </button><br><br>
-                    <a class="card-text collapse quest" id="collapseCard2" style="justify-content: left;">
-                        <p>Email: browsforthesoul@gmail.com</p><br>
-                        <p>Phone: 801-835-3289</p><br>
-                        <p>Studio Address: 21 S Main St, Layton, UT 84041</p><br>
+                    <br><br>
+                    <div id="contactInfo quest">
+
+                        <p class="info quest">Email: <a href="mailto:browsforthesoul@gmail.com">browsforthesoul@gmail.com</a></p><br>
+                        <p class="info quest">Phone: <a href="tel:+1-801-809-4731">801-835-3289</a></p><br>
+                        <p class="info quest" style="border-bottom: solid;">Studio Address: <a href="https://www.google.com/maps/place/21+S+Main+St,+Layton,+UT+84041/@41.0599073,-111.9675958,17z/data=!3m1!4b1!4m5!3m4!1s0x87530231eaf56457:0x13a2eb6d87ae2458!8m2!3d41.0599073!4d-111.9654071">21 S Main St, Layton, UT 84041</a></p><br>
+                    </div>
+
+                    <a class="card-text collapse multi-collapse" id="collapseCard2">
+                        
+                        <img src="assets/images/browsForTheSoulLogo.jpg">
                     </a>
-                </div>
             </div>
             <div class="card col-md-6 text-center">
                 <img class="card-img-top" src="assets/images/faq.png" style="width:400px; margin-left:auto; margin-right:auto;"
                     alt="Card image cap">
                 <div class="card-body text-center">
-                    <button class="btn btn-dark border border-dark" type="button" data-toggle="collapse" href="#collapseCard3"
+                    <button class="btn btn-dark border border-dark" type="button" data-toggle="collapse" data-target=".multi-collapse" href="#collapseCard3"
                         aria-expanded="false" aria-controls="collapseCard3">
                         Read More
                     </button><br><br>
-                    <a class="card-text collapse" id="collapseCard3">
+                    <a class="card-text collapse multi-collapse" id="collapseCard3">
                         <p>
                             <h3 class="quest">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
                                 voluptates totam.
