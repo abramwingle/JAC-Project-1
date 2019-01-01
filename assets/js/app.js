@@ -22,7 +22,7 @@ $.ajax({
 
         pictureDiv.append(personImage);
 
-        $("#pictureDisplay").prepend(pictureDiv);
+        $(".pictureDisplay").prepend(pictureDiv);
     }
 
     // loop through response data

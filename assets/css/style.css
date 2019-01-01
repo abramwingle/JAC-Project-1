@@ -54,7 +54,8 @@
     border-right: none;
 }
 .display-3 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Playball', cursive;
+
 }
 .carousel-img {
     height: 800px;
@@ -221,7 +222,7 @@ h6 {
       padding-right: auto;
   }
 
-  #pictureDisplay {
+  .pictureDisplay {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -250,3 +251,10 @@ h6 {
 
 }
 
+.aboutMe {
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+}
