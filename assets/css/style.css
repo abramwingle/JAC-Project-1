@@ -198,6 +198,10 @@ h6 {
     .fixed-bottom {
         position: static!important;
     }
+    .carousel-img {
+        width: 1000px!important;
+        float: right;
+    }
   }
   @media screen and (max-width: 407px) {
     .card-img-top {
