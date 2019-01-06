@@ -203,7 +203,21 @@ h6 {
         width: 1000px!important;
         float: right;
     }
+
+    .aboutMe {
+        text-align: center;
+    }
+    
+    .nikkiSelfie {
+        margin-right: 0px;
+    }
+    .aboutMeText {
+        padding: 25px;
+    }
+  
   }
+
+
   @media screen and (max-width: 407px) {
     .card-img-top {
       flex: 100%;
